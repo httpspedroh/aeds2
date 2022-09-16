@@ -13,7 +13,7 @@ class TP01Q1 {
 		do {
 		String str1 = "", str2 = "";
 		
-		str1 = scr.nextLine(); //lê a palavra/frase digitada
+		str1 = scr.nextLine();
 
 		if (str1.equals("FIM")) {
 			a = 1;
