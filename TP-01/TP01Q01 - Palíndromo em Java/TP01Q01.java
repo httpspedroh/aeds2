@@ -11,7 +11,7 @@ class TP01Q1 {
 		int i = 0;
 		
 		do {
-		String str1 = "", str2 = ""; //str1 = digitada / str2 = reversa
+		String str1 = "", str2 = "";
 		
 		str1 = scr.nextLine(); //lê a palavra/frase digitada
 
