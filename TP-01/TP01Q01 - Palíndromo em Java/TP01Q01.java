@@ -4,7 +4,7 @@ class TP01Q1 {
 
 	public static void main(String[] args) {
 
-		Scanner scanner = new Scanner (System.in);
+		Scanner scr = new Scanner (System.in);
 		boolean[] check = new boolean[1000];
 		
 		int a = 0;
@@ -13,7 +13,7 @@ class TP01Q1 {
 		do {
 		String str1 = "", str2 = ""; //str1 = digitada / str2 = reversa
 		
-		str1 = scanner.nextLine(); //lê a palavra/frase digitada
+		str1 = scr.nextLine(); //lê a palavra/frase digitada
 
 		if (str1.equals("FIM")) {
 			a = 1;
@@ -36,11 +36,13 @@ class TP01Q1 {
 		} while (a != 1);
 
 		for (int x = 0; x < i; x++) {
-		if (check[x] == true) {
-			System.out.println("SIM");
-		} else {
-			System.out.println("NÃO");
+			if (check[x] == true) {
+				System.out.println("SIM");
+			} else {
+				System.out.println("NÃO");
+			}
 		}
-		}
+
+		scr.close();
 	}
 }
