@@ -26,7 +26,7 @@ class TP01Q1 {
 		}
 		
 
-		if (str1.equals(str2) && a != 1) {   //compara
+		if (str1.equals(str2) && a != 1) {
 			check[i] = true;
 			i++;
 		} else if (a != 1) {
