@@ -23,7 +23,7 @@ class TP01Q1 {
 
 		for (int y = (strLength - 1); y>=0; --y) {
 			str2 = str2 + str1.charAt(y);
-		} //coloca a palavra/frase reversa na str2
+		}
 		
 
 		if (str1.equals(str2) && a != 1) {   //compara
