@@ -11,28 +11,28 @@ class TP01Q1 {
 		int i = 0;
 		
 		do {
-		String str1 = "", str2 = "";
-		
-		str1 = scr.nextLine();
+			String str1 = "", str2 = "";
+			
+			str1 = scr.nextLine();
 
-		if (str1.equals("FIM")) {
-			a = 1;
-		}
-		
-		int strLength = str1.length();
+			if (str1.equals("FIM")) {
+				a = 1;
+			}
+			
+			int strLength = str1.length();
 
-		for (int y = (strLength - 1); y>=0; --y) {
-			str2 = str2 + str1.charAt(y);
-		}
-		
+			for (int y = (strLength - 1); y>=0; --y) {
+				str2 = str2 + str1.charAt(y);
+			}
+			
 
-		if (str1.equals(str2) && a != 1) {
-			check[i] = true;
-			i++;
-		} else if (a != 1) {
-			check[i] = false;
-			i++;
-		}
+			if (str1.equals(str2) && a != 1) {
+				check[i] = true;
+				i++;
+			} else if (a != 1) {
+				check[i] = false;
+				i++;
+			}
 		} while (a != 1);
 
 		for (int x = 0; x < i; x++) {
